@@ -32,27 +32,245 @@
             style="color: transparent"
           />
           <input
-            class="w-100 h-10 border border-gray-400 focus:border-gray-500 focus:outline-none rounded-sm mt-8 "
+            class="w-100 h-10 border border-gray-400 focus:border-gray-500 focus:outline-none rounded-sm mt-8"
             type="search"
             placeholder=" 🔍 جست و جو در کالا ها /دسته بندی ها/برند ها "
           />
         </div>
-        <div class="flex items-center gap-3 ml-10 ">
-            <a class="border-2 border-pink-400 px-8 py-2 text-pink-500 font-bold rounded-md cursor-pointer">ورود</a>
-            <a class="border-2 border-pink-400 px-8 py-2 text-pink-500 font-bold rounded-md cursor-pointer">ثبت نام</a>
+        <div class="flex items-center gap-3 ml-10">
+          <a
+            class="border-2 border-pink-400 px-8 py-2 text-pink-500 font-bold rounded-md cursor-pointer"
+            >ورود</a
+          >
+          <a
+            class="border-2 border-pink-400 px-8 py-2 text-pink-500 font-bold rounded-md cursor-pointer"
+            >ثبت نام</a
+          >
         </div>
       </div>
       <!-- part 2  -->
-      <div class=" h-10 bg-gray-900 text-white mt-4">
+      <div class="h-10 bg-gray-900 text-white mt-4">
         <nav class="flex gap-6 p-3 mr-5 cursor-pointer">
-           <a> دسته بندی محصولات</a>
-           <a>پیشنهاد ویژه</a>
-           <a>برندها</a>
-           <a>جعبه جادویی</a>
-           <a>مجله خانومی</a>
+          <a> دسته بندی محصولات</a>
+          <a>پیشنهاد ویژه</a>
+          <a>برندها</a>
+          <a>جعبه جادویی</a>
+          <a>مجله خانومی</a>
         </nav>
       </div>
     </header>
     <!-- end header -->
+    <!-- product start -->
+    <section class="max-w-7xl mx-auto px-4 py-8">
+      <div class="grid grid-cols-12 gap-4">
+        <!-- ========================= -->
+        <!-- سمت راست (تصاویر محصول) -->
+        <!-- ========================= -->
+
+        <div class="col-span-12 lg:col-span-5">
+          <div class="flex gap-1">
+            <!-- تصاویر کوچک -->
+
+            <div class="flex flex-col gap-3">
+              <button
+                class="w-16 h-16 rounded-xl border-2 border-pink-500 overflow-hidden"
+              >
+                <img
+                  class="w-16 h-16"
+                  src="https://storage.khanoumi.com/ColorGallery/59791_howto_01.jpeg?w=34"
+                  alt=""
+                />
+              </button>
+
+              <button class="w-16 h-16 rounded-xl border overflow-hidden">
+                <img
+                  class="w-16 h-16"
+                  src="https://storage.khanoumi.com/ColorGallery/59791_feature_01.jpeg?w=34"
+                  alt=""
+                />
+              </button>
+
+              <button class="w-16 h-16 rounded-xl border overflow-hidden">
+                <img
+                  class="w-16 h-16"
+                  src="https://storage.khanoumi.com/ColorGallery/59791_ingredients_01.jpeg?w=34"
+                  alt=""
+                />
+              </button>
+
+              <button class="w-16 h-16 rounded-xl border overflow-hidden">
+                <img
+                  class="w-16 h-16"
+                  src="https://storage.khanoumi.com/ColorGallery/3-2025127132347453.jpg?w=34"
+                  alt=""
+                />
+              </button>
+            </div>
+
+            <!-- تصویر اصلی -->
+
+            <div class="relative flex-1">
+              <div class="overflow-hidden rounded-2xl border bg-white w-80">
+                <img
+                  src="https://storage.khanoumi.com/ColorGallery/59791_howto_01.jpeg?w=320"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- آمار محصول -->
+
+          <div
+            class="flex flex-wrap items-center gap-6 mt-6 text-gray-600 text-sm"
+          >
+            <div class="flex items-center gap-2">
+              ⭐
+
+              <span> ۴.۶ امتیاز </span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              💬
+
+              <span> ۲۵۳ دیدگاه </span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              ❤️
+
+              <span> ۱.۵K علاقه‌مندی </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========================= -->
+        <!-- سمت چپ (اطلاعات محصول) -->
+        <!-- ========================= -->
+
+        <div class="col-span-12 lg:col-span-7">
+          <div class="grid lg:grid-cols-3 gap-3">
+            <!-- ================= -->
+            <!-- اطلاعات محصول -->
+            <!-- ================= -->
+
+            <div class="lg:col-span-2">
+              <!-- مسیر صفحه -->
+
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-5">
+                <a href="#" class="hover:text-pink-600"> پیکسل </a>
+
+                <span>›</span>
+
+                <a href="#" class="hover:text-pink-600"> ضد آفتاب پیکسل </a>
+              </div>
+
+              <!-- عنوان -->
+
+              <h5 class="font-bold text-gray-800">
+                ضد آفتاب رنگی پیکسل با SPF50 مناسب پوست چرب و جوش دار حجم ۵۰
+                میلی لیتر
+              </h5>
+
+              <!-- عنوان انگلیسی -->
+
+              <p class="mt-4 text-gray-500">
+                Pixxel Sunscreen Cream For Acne Prone And Oily Skin 50ml
+              </p>
+
+              <!-- ویژگی های کوتاه -->
+
+              <div class="mt-10 space-y-5">
+                <div class="flex items-center gap-2">
+                  <span class="font-bold"> سایز: </span>
+
+                  <span class="text-gray-600"> ۵۰ میلی لیتر </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <span class="font-bold"> رنگ: </span>
+
+                  <span class="text-gray-600"> ۰۳ برنز طلایی </span>
+                </div>
+              </div>
+
+              <!-- رنگ بندی -->
+
+              <div class="flex gap-4 mt-8">
+                <button
+                  class="w-14 h-14 rounded-lg border-2 border-black bg-[#e6c2a7]"
+                ></button>
+
+                <button
+                  class="w-14 h-14 rounded-lg border border-gray-300 bg-[#bda89c]"
+                ></button>
+
+                <button
+                  class="w-14 h-14 rounded-lg border border-gray-300 bg-[#c9b6ac]"
+                ></button>
+              </div>
+            </div>
+
+            <!-- ================= -->
+            <!-- باکس خرید -->
+            <!-- ================= -->
+
+            <section
+              class="border rounded-xl p-6 h-sm bg-gray-100 border-gray-200 w-sm relative left-7"
+            >
+              <div class="sticky top-6">
+                <!-- امکانات فروشگاه -->
+
+                <div class="space-y-5 text-gray-600 text-sm">
+                  <div class="flex items-center gap-1">
+                    <span class="text-xl">🏅</span>
+                    <span> ضمانت اصالت و سلامت کالا </span>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <span class="text-xl">📦</span>
+                    <span> بازگشت کالا تا ۷ روز طبق شرایط مرجوعی </span>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <span class="text-xl">🚚</span>
+
+                    <span> ارسال از ۲ روز کاری </span>
+                  </div>
+                </div>
+                <br />
+                <br />
+                <!-- قیمت -->
+
+                <div class="flex items-center justify-between">
+                  <span class="text-gray-500"> قیمت </span>
+
+                  <span class="text-xl font-bold text-gray-900">
+                    988,000 تومان
+                  </span>
+                </div>
+
+                <!-- اقساط -->
+
+                <p class="text-sm text-blue-700">
+                  💳 پرداخت اقساطی از
+
+                  <span class="font-bold"> ۲۴۷,۰۰۰ تومان </span>
+
+                  در ماه
+                </p>
+
+                <!-- دکمه خرید -->
+
+                <button
+                  class="w-full mt-8 bg-pink-600 hover:bg-pink-700 transition text-white rounded-xl py-4 text-lg font-bold"
+                >
+                  افزودن به سبد خرید
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product end -->
   </body>
 </html>
