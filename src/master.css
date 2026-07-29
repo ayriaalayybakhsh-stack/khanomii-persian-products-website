@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *)); /* اکتیو کردن قابلیت دارک مود */
+
+@font-face {
+    font-family: "Estedad";
+    src: url(../fonts/Estedad.ttf);
+}
+@theme{
+    --font-main: "Estedad" ;
+}
+@layer components {
+.nav-links{
+    @apply block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors
+}
+}
+.btn-primery{
+    @apply py-3 px-8 rounded-lg bg-sky-700 shadow-lg font-bold dark:text-white hover:scale-95 duration-500 block;
+}
