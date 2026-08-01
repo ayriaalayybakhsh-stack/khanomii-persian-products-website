@@ -1,4 +1,3 @@
-```md
 # Khanomii – Persian Products Website 🌸
 
 A modern, responsive landing page inspired by Persian e-commerce websites for beauty and personal care products. This project focuses on clean UI, responsive layouts, and a smooth user experience using only front-end technologies.
