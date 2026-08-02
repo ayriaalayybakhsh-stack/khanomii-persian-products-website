@@ -68,18 +68,6 @@ Then open `index.html` in your browser.
 ---
 
 
-## 💡 Future Improvements
-
-* Product Search
-* Shopping Cart
-* Dark Mode
-* Product Details Page
-* Wishlist
-* Login & Registration
-* API Integration
-
----
-
 ## 👨‍💻 Author
 
 **Ayria Alayybakhsh**
